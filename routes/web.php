@@ -46,6 +46,17 @@ Route::get('/testsiswa', function () {
     return $query;
 });
 
+Route::get('/about', function () {
+    return view ('about');
+});
+
+Route::get('/tampilan', function () {
+    return view ('layouts.master2');
+});
+
+
+
+
 
 
 
