@@ -54,6 +54,10 @@ Route::get('/tampilan', function () {
     return view ('layouts.master2');
 });
 
+Route::get('/tgs', function () {
+    return view ('tugas');
+});
+
 
 
 
